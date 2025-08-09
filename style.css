@@ -1,0 +1,71 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+  height: 100%;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  height: 100vh;
+}
+
+.sidebar{
+  border-right: solid 2px;
+  border-color: #e0e0e1;
+  width: 20%;
+  padding: 15px;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.chat{
+  background-color: bisque;
+  width: 80%;
+}
+
+.chat-head{
+  display: flex;
+  justify-content: space-between;
+  background-color: yellowgreen;
+}
+
+.chat-header{
+  display: flex;
+  align-items: center;
+}
+
+.chat-actions{
+  display:flex;
+  align-items: center;
+}
+
+
+
+img{
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+}
+.contact-list{
+  padding:10px;
+}
+.contact{
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+.status{
+  font-size: 12px;
+}
+
+.chat-footer{
+  background-color: skyblue;
+  
+}
