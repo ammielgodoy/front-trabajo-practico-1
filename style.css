@@ -65,7 +65,35 @@ img{
   font-size: 12px;
 }
 
+.status-offline::before{
+  content:"•";
+  color: red;
+  font-size: 12px;
+  padding: 5px
+  
+  }
+
+.status-online::before{
+content:"•";
+color: green;
+font-size: 12px;
+padding: 5px
+
+}
+
+.active{
+  background-color: #efeeee;
+  border-radius: 20px;
+}
+
+.search{
+  width: 100%;
+  padding: 10px;
+  border-color: #e1e1e1;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
 .chat-footer{
   background-color: skyblue;
-  
 }
