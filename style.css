@@ -183,3 +183,62 @@ button{
   justify-content: center;
   padding: 5px;
 } 
+
+/* -------Responsive Tablet------- */
+
+@media (max-width: 880px) {
+.chat{
+  width: 100%;
+}
+.sidebar {
+    display: none;
+  }
+
+.message {
+    width: 80%;
+  }
+
+.chat-header {
+    display: inline;
+    padding: 5px;
+  }
+
+  .chat-contact {
+    display: flex;
+    padding: 5px;
+  }
+
+  .chat-actions {
+    justify-content: flex-end;
+    padding: 5px;
+  }
+}
+
+/* -------Responsive Phone------- */
+@media (max-width: 480px) {
+.chat{
+  width: 100%;
+}
+.sidebar {
+    display: none;
+  }
+
+.message {
+    width: 80%;
+  }
+
+.chat-header {
+    display: inline;
+    padding: 5px;
+  }
+
+  .chat-contact {
+    display: flex;
+    padding: 5px;
+  }
+
+  .chat-actions {
+    justify-content: flex-end;
+    padding: 5px;
+  }
+}
