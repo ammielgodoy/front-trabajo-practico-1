@@ -128,6 +128,11 @@ button{
   font-size: 17px;
 }
 
+.typing{
+  color: grey;
+  font-size: 12px;
+  font-style: italic;
+}
 /* -------CHAT SECTION - MESSAGES------- */
 
 .chat-messages{
@@ -184,7 +189,7 @@ button{
   padding: 5px;
 } 
 
-/* -------Responsive Tablet------- */
+/* -------RESPONSIVE TABLET------- */
 
 @media (max-width: 880px) {
 .chat{
@@ -214,7 +219,7 @@ button{
   }
 }
 
-/* -------Responsive Phone------- */
+/* -------RESPONSIVE PHONE------- */
 @media (max-width: 480px) {
 .chat{
   width: 100%;
